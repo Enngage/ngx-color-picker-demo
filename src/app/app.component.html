@@ -1,0 +1,7 @@
+<div style="text-align:center">
+  <h1>
+    Ngx color picker demo
+  </h1>
+</div>
+
+<input matInput [cpPosition]="'bottom'" [(colorPicker)]="color" (colorPickerChange)="pickColor($event)" [style.background]="color" type="text" #inputElem>
